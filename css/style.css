@@ -5822,3 +5822,62 @@ img{
 	justify-content: center;
 	align-items: center;
 }
+
+/* Auth pages*/
+.auth-section{
+	padding-top: 140px;
+}
+
+.auth-section .image-layer{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.auth-section .form-control{
+	height: 50px !important;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.auth-section .form-group{
+	margin-bottom: 15px;
+}
+
+.auth-form-container .background{
+	position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #141c27e8;
+    left: 0;
+    top: 0;
+    /* filter: blur(13px); */
+}
+
+.auth-form-container button{
+	height: 50px;
+	border-radius: 0;
+}
+
+.auth-form-container .form-control{
+	display: block;
+    width: 100%;
+    line-height: 28px;
+    height: 70px;
+    font-size: 15px;
+    padding: 20px 30px;
+    background: #07070f;
+    color: #ffffff;
+    font-weight: 400;
+    border: 1px solid rgba(255,255,255,0.10);
+    transition: all 500ms ease;
+    -webkit-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+}
+
+.flex-1{
+	flex: 1 !important;
+}

@@ -347,6 +347,10 @@
 		padding: 0;
 		height: 500px;
 	}
+
+	.auth-section{
+		padding-top: 40px !important;
+	}
 }
 
 @media only screen and (max-width: 767px){	
