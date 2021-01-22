@@ -41,8 +41,6 @@ function data(){
             getGameDetails(gameSlug)
                 .then(game => {
 
-                    console.log('asd');
-
                     // Load game trailer
                     getGameTrailer(game.id).then(trailer => {
                         game['trailer'] = trailer;

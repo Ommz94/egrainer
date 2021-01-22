@@ -108,7 +108,7 @@ function getGameTrailer(id){
     };
 
     return axios(config).then(response => {
-        let trailer = response.data.results[0];     
+        let trailer = response.data.results[0];
 
         if(!trailer){
             return null;

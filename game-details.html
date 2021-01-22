@@ -155,6 +155,9 @@
                                     <span x-bind:class="platformIcons[platform.platform.slug]"></span>
                                 </template>
                             </div>
+                            <template x-if="game">
+                                <a class="btn btn-warning mt-3 px-5 rounded-0" href="http://meet.google.com/new" target="noopener">Play</a>
+                            </template>
                         </div>
                     </div>
                 </div>
@@ -178,10 +181,10 @@
                                 </figure>
                             </div>
                             <div class="lower-content">
-                                <div class="title-box clearfix">
+                                <div class="title-box d-flex justify-content-between align-items-start">
                                     <div class="title">
                                         <h2 x-text="game ? game.name : ''"></h2>
-                                        <div class="rating">Rating 
+                                        <div class="rating">
                                             <span id="game-rating" class="ratings" x-bind:data-rating="game ? game.rating : ''"></span>
                                         </div>
                                         <div class="post-info">
@@ -197,6 +200,12 @@
                                                 </li>
                                             </ul>
                                         </div>
+                                    </div>
+
+                                    <div>
+                                        <template x-if="game">
+                                            <a class="btn btn-warning mt-3 px-5 rounded-0" href="http://meet.google.com/new" target="noopener">Play</a>
+                                        </template>
                                     </div>
                                 </div>
                                 <div class="text">

@@ -214,6 +214,38 @@
                                 <input type="password" name="password_confirmation" class="form-control" required>
                             </div>
 
+                            <div class="form-group w-100">
+                                <label class="text-white">Register as a</label>
+                                <div class="d-flex">
+                                    <label class="m-0 mr-md-5 text-white">
+                                        <input type="radio" name="user_type" value="trainer" required>
+                                        Trainer
+                                    </label>
+                                    <label class=" text-white">
+                                        <input type="radio" name="user_type" value="trainee" required>
+                                        Trainee
+                                    </label>
+                                </div>          
+                            </div>
+
+                            <div class="form-group w-100">
+                                <label class="text-white">Available on</label>
+                                <div class="d-flex">
+                                    <label class="m-0 mr-md-5 text-white">
+                                        <input type="radio" name="available_on" value="weekdays" required>
+                                        Weekdays
+                                    </label>
+                                    <label class=" text-white">
+                                        <input type="radio" name="available_on" value="weekends" required>
+                                        Weekends
+                                    </label>
+                                    <label class="m-0 mr-md-5 text-white">
+                                        <input type="radio" name="available_on" value="anyday" required>
+                                        Both
+                                    </label>
+                                </div>          
+                            </div>
+
                             <div class="w-100 mt-4">
                                 <button class="btn btn-info btn-sm btn-block">Register</button>
                             </div>
