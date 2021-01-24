@@ -57,7 +57,7 @@ function data(){
                         this.isPageLoading = false;
 
                         setTimeout(() => {
-                            $('#game-rating').starRating({ starSize: 18, })
+                            $('.game-rating').starRating({ starSize: 18, })
                         }, 0);
                     });
 

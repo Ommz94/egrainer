@@ -5881,3 +5881,10 @@ img{
 .flex-1{
 	flex: 1 !important;
 }
+
+.trainer-info-small{
+	font-size: .9rem;
+}
+.trainer-name{
+	line-height: 1rem !important;
+}
